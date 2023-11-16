@@ -1,0 +1,31 @@
+.social {
+    display: flex;
+    margin-right:  40px;
+    margin-bottom: 40px;
+    justify-content: flex-end;
+ }
+ 
+ .social a {
+     text-decoration: none;
+     font-size: 20px;
+     width: 40px;
+     height: 40px;
+     line-height: 40px;
+     text-align: center;
+     color: #fff;
+     border-radius: 50%;
+     border: 2px solid #fff;
+     position: relative;
+   }
+
+   .social a:hover {
+    color: var(--soft-magenta);
+    border-color: var(--soft-magenta);
+
+  }
+
+  .fa {
+    margin: 10px;
+  }
+
+  
